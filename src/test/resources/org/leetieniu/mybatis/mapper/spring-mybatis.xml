@@ -23,12 +23,12 @@
 	</bean>
 	
 	<!-- <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-	  <property name="mapperInterface" value="org.lee.dao.UserMapperDao" />
+	  <property name="mapperInterface" value="org.leetieniu.mybatis.mapper.UserMapper" />
 	  <property name="sqlSessionFactory" ref="sqlSessionFactory" />
 	</bean> -->
 	
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-	  <property name="basePackage" value="org.lee.dao" />
+	  <property name="basePackage" value="org.leetieniu.mybatis.mapper" />
 	  <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 	

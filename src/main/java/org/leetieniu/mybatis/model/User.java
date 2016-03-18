@@ -1,4 +1,4 @@
-package org.lee.model.pojo;
+package org.leetieniu.mybatis.model;
 
 public class User {
 	
